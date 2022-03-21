@@ -1,0 +1,95 @@
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+
+
+    background-color: rgb(36, 109, 192);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+    padding: 20px;
+    
+}
+
+.demo {
+
+max-width: 100%;
+width: 800px;
+background-color: #fff;
+margin: auto;
+box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.1);
+padding: 10px;
+transition: 0.5s;
+border-radius: 20px;
+text-align: center;
+
+
+}
+h3{
+
+    margin: 0px;
+    color: rgb(148, 141, 141);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+
+}
+
+
+.joke {
+
+
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+    
+
+
+}
+
+
+.btn {
+    font-size: 15px;
+    background-color: rgb(223, 30, 30);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow:  0px 10px 20px 10px rgba(0, 0, 0, 0.1);
+    padding: 12px 30px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+
+
+
+
+}
+
+.btn:hover {
+    background-color: rgb(16, 133, 22);
+    color: #fafafa;
+
+}
+
+
+
+.demo:hover {
+    transform: scale(1.1);
+
+}
